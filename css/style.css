@@ -1,0 +1,273 @@
+body {
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.row {
+  margin: 0;
+}
+/*---Header---*/
+.header-block {
+  min-height: 100vh;
+  background: url("../images/background/background.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 0;
+  position: relative;
+  box-shadow: 0em 0.6em 10px rgba(0, 0, 0, 0.3);
+}
+.header-block .header-content {
+  margin-top: 7%;
+}
+.header-block .header-content .schedule {
+  width: 500px;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 5px #000;
+  border-radius: 50%;
+  padding: 0;
+}
+.header-block .header-content .schedule .logotype {
+  width: 80%;
+  margin-top: 15%;
+  -webkit-filter: contrast(200%);
+  -o-filter: contrast(200%);
+  -fox-filter: contrast(200%);
+  filter: contrast(200%);
+}
+.header-block .header-content .schedule hr {
+  width: 90%;
+  border: none;
+  height: 2px;
+  background-color: #a09545;
+}
+.header-block .header-content .schedule .title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.header-block .header-content .schedule .date {
+  line-height: 70%;
+  font-size: 60px;
+  font-family: CochinArchaic;
+  /*color: #a09545;*/
+  color: #fff;
+  text-shadow: 2px 0px 6px black;
+}
+.header-block .header-content .schedule .registration-button {
+  background-color: #7BBCA6;
+  box-shadow: 0px 0px 4px black;
+  -webkit-transition: 0.5s;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  width: 40%;
+  margin-top: 3%;
+  padding: 10px 0px;
+}
+.header-block .header-content .schedule .registration-button:hover {
+  box-shadow: 0px 0px 8px black;
+}
+.header-block .header-content .arrow {
+  -webkit-transition: 0.5s;
+  box-shadow: 0px 0px 5px #000;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 4%;
+  bottom: 10%;
+}
+.header-block .header-content .arrow:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+.header-block .header-content .arrow a .fa {
+  color: #fff;
+  font-size: 50px;
+  padding: 10%;
+}
+/*----Background main and footer--*/
+.background {
+  background: url('../images/background/greyfloral.png');
+  /*---Main content---*/
+  /*---Partners---*/
+}
+.background .main {
+  padding-top: 50px;
+  /*---About---*/
+  /*---Events---*/
+  /*---Discription--*/
+}
+.background .main .about {
+  width: 80%;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.background .main .about .titles {
+  padding: 30px;
+}
+.background .main .about .row {
+  padding-top: 30px;
+}
+.background .main .about .row .list {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+.background .main .about .row .list ul {
+  padding: 0;
+}
+.background .main .about .row .list ul li {
+  line-height: 25px;
+  list-style: none;
+  text-align: left;
+}
+.background .main .about .row .list ul li:nth-last-child(n+2) {
+  border-bottom: 1px solid #ccc;
+}
+.background .main .about .about-description {
+  border-radius: 20px;
+  position: relative;
+  background: red;
+}
+.background .main .about .about-description .first-part {
+  background-color: #7BBCA6;
+  padding: 20px;
+}
+.background .main .about .about-description .first-part .fa-smile-o {
+  padding: 50px;
+  font-size: 100px;
+  color: #fff;
+}
+.background .main .about iframe {
+  margin-left: 40%;
+  width: 48.4%;
+  margin: auto;
+  box-shadow: 0px 0px 10px #000;
+  border: none;
+}
+.background .main .about iframe #document .ytp-chrome-top-buttons {
+  display: none;
+}
+.background .main .events {
+  padding-top: 50px;
+  /*---Block with image---*/
+}
+.background .main .events .title {
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.background .main .events .event {
+  margin-bottom: 50px;
+}
+.background .main .events .event .image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  box-shadow: 0px 0px 10px #000;
+  /*---Hovers---*/
+  /*---Parent transparant block---*/
+}
+.background .main .events .event .image:hover .opacity {
+  visibility: visible;
+  background: rgba(0, 0, 0, 0.4);
+}
+.background .main .events .event .image:hover .inner {
+  background: rgba(255, 255, 255, 0.4);
+}
+.background .main .events .event .image:hover .blur-image {
+  -webkit-filter: blur(3px);
+}
+.background .main .events .event .image .opacity {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+  visibility: hidden;
+  /*---Child transparant block--*/
+}
+.background .main .events .event .image .opacity .inner {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  /*---Discription in image--*/
+}
+.background .main .events .event .image .opacity .inner #about-event {
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  /*---Link icon for social network--*/
+}
+.background .main .events .event .image .opacity .inner #about-event .icon-link {
+  font-size: 20px;
+}
+.background .main .description {
+  padding-bottom: 40px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 30px;
+}
+.background .partners .logotypes-of-partner .title {
+  padding-bottom: 50px;
+  margin: 0;
+}
+.background .partners .logotypes-of-partner .partner {
+  margin: 10px;
+}
+/*--------Mobile device and Tablet--------*/
+@media screen and (max-width: 768px) {
+  .header-block .container .row .schedule {
+    width: 300px;
+    height: 300px;
+  }
+  .header-block .container .row .schedule hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .header-block .container .row .schedule .title {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .header-block .container .row .schedule .date {
+    font-size: 30px;
+  }
+  .header-block .container .row .schedule .registration-button {
+    font-size: 15px;
+  }
+  .header-block .container .arrow {
+    -webkit-transition: 0.5s;
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+  }
+  .main iframe {
+    width: 90%;
+    height: 210px;
+    border: none;
+  }
+}
